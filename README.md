@@ -1,4 +1,4 @@
-# group-assignment-01
+# Movie Database
 Group Members:
   * Sam Rosen
   * Mike Caffrey
