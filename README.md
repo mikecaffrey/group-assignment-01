@@ -9,16 +9,25 @@ The first table will be a movie table with a title, director, year, genre, and d
 The second table will be an actor table with name, age, and gender columns
 
 - The Movie Table would look like this
-+ Movie Id | Movie Title | Director | Year | Genre | Description
----------|-------------|----------|------|-------|------------
-1| *Movie Title* |Director|  Year    View    Edit |Genre| Description
-2| *Finding Dory* |Ellen DeGeneres| 2017| Family| Please refer to our movie description database.
+
+|Movie Id | Movie Title | Actor | Year | Genre | Description|
+|---------|:-------------:|----------|------|-------|------------:|
+|1| *"Just Go With It"* |Jen Aniston  Adam Sandler| 2011| Comedy Romance| Please Refer to our database|
+|2| *"Malieficent"* | Angelina Jolie | 2014 | Fantasy| Please Refer to our database|
+|3| *"Mr & Mrs. Smith"* |Angelina Jolie Brad Pitt| 2005 | Action | Please Refer to our database|
+|4| *"Grown Ups"* |Adam Sandler| 2010 | Comedy| Please Refer to our database|
+|5| *"Titanic"* |Leonardo DiCaprio Kate Winslet | 1997 | Romance | Please Refer to our database|
+
 
 - The Actor Table would look like this
-Actor Id | Actor Name | Age | Gender
-----------|------------|-----|-------
-1|	Jane Austen|	Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique and comment upon the British landed gentry at the end of the 18th century.	Edit
-2	|J. K. Rowling	|Joanne Rowling, who writes under the pen names J. K. Rowling and Robert Galbraith, is a British novelist and screenwriter who wrote the Harry Potter fantasy series.
+
+|Actor Id | Actor Name | Age | Gender| Description|
+|----------|:------------:|-----|-------:|---------|
+|1|**Adam Sandler**| 52 | Male |Please Refer to our database|
+|2|**Angelina Jolie**| 43 | Female |Please Refer to our database|
+|3|**Brad Pitt**| 55 | Male |Please Refer to our database|
+|4|**Leonardo DiCaprio**| 44| Male |Please Refer to our database|
+|5|**Jen Aniston**| 49| Female |Please Refer to our database|
 
 
 Link to our GitHub
