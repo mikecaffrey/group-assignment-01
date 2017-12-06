@@ -1,4 +1,4 @@
-{% extends "home-structure.html" %}
+{% extends "home-base.html" %}
 
 {% block title %}
 All Movies
@@ -17,31 +17,40 @@ All Movies
 <div class="container">
    <h1 class="mt-5"><i class="fa fa-film" aria-hidden="true"></i> Movie Directory</h1>
    <div class="row bottom-margin">
-     <a href="/movie-directory/add" class="btn btn-primary" role="button" aria-disabeled="true">Add Movie</a>
+     <a href="/movie/add" class="btn btn-primary" role="button" aria-disabeled="true">Add Movie</a>
    </div>
 {% if movies %}
 <table class="table">
   <thead>
     <tr>
+      <th> Movie Id</th>
       <th>Title</th>
+        <th>Director</th>
+        <th>Year</th>
+        <th>Genre</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
+
   {% for movie in movies %}
   <tr>
-    <th scope="row">{{movie.title}}</th>
+    <th scope="row">{{movie.id}}</th>
+        <td>{{movie.title}}</td>
+        <td>{{movie.director}}</td>
+        <td>{{movie.year}}</td>
+        <td>{{movie.genre}}</td>
         <td>{{movie.description}}</td>
         <td>
-          <a href="/movie-directory/edit/{{movie.title}}" class ="btn btn-success" role="button" aria-disabled="true"> Edit</a>
+          <a href="/movie/edit/{{movie.id}}" class ="btn btn-success" role="button" aria-disabled="true"> Edit</a>
         </td>
-
   </tr>
+
    {% endfor %}
  </tbody>
 </table>
 {% else %}
-<h3>There are no movies in the directory yet.</h3>
+  <h3>There are no movies in the directory yet.</h3>
 {% endif %}
 </div>
 {% endblock %}
