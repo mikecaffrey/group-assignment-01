@@ -11,7 +11,7 @@ The second table will be an actor table with name, age, and gender columns
 - The Movie Table would look like this
 
 |Movie Id | Movie Title | Year | Genre | Description|
-|---------|:-------------:|----------|------|-------|------------:|
+|---------|:-----------:|------|-------|-----------:|
 |1| *"Just Go With It"* | 2011 | Comedy Romance| Please Refer to our database|
 |2| *"Malieficent"* | 2014 | Fantasy| Please Refer to our database|
 |3| *"Mr & Mrs. Smith"* | 2005 | Action | Please Refer to our database|
