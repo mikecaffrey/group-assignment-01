@@ -13,7 +13,7 @@ The second table will be an actor table with name, age, and gender columns
 |Movie Id | Movie Title | Year | Genre | Description|
 |---------|:-----------:|------|-------|-----------:|
 |1| *"Just Go With It"* | 2011 | Comedy Romance| Please Refer to our database|
-|2| *"Malieficent"* | 2014 | Fantasy| Please Refer to our database|
+|2| *"Maleficent"* | 2014 | Fantasy| Please Refer to our database|
 |3| *"Mr & Mrs. Smith"* | 2005 | Action | Please Refer to our database|
 |4| *"Grown Ups"* | 2010 | Comedy| Please Refer to our database|
 |5| *"Titanic"* | 1997 | Romance | Please Refer to our database|
@@ -21,13 +21,13 @@ The second table will be an actor table with name, age, and gender columns
 
 - The Actor Table would look like this
 
-|Actor Id | Actor Name | Age | Gender| Description|
+|Actor Id | Actor Name | Age | Role | Movie|
 |----------|:------------:|-----|-------:|---------|
-|1|**Adam Sandler**| 52 | Male |Please Refer to our database|
-|2|**Angelina Jolie**| 43 | Female |Please Refer to our database|
-|3|**Brad Pitt**| 55 | Male |Please Refer to our database|
-|4|**Leonardo DiCaprio**| 44| Male |Please Refer to our database|
-|5|**Jen Aniston**| 49| Female |Please Refer to our database|
+|1|**Adam Sandler**| 52 | Danny Maccavee | Just Go With It |
+|2|**Angelina Jolie**| 43 | Maleficent | Maleficent |
+|3|**Brad Pitt**| 55 | John Smith | Mr. & Mrs. Smith |
+|4|**Chris Rock**| 44| Kurt McKenzie | Grown Ups |
+|5|**Leonardo DiCaprio**| 49| Jack Dawson | Titanic |
 
 
 Link to our GitHub
