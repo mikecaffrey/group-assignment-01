@@ -10,13 +10,13 @@ The second table will be an actor table with name, age, and gender columns
 
 - The Movie Table would look like this
 
-|Movie Id | Movie Title | Actor | Year | Genre | Description|
+|Movie Id | Movie Title | Year | Genre | Description|
 |---------|:-------------:|----------|------|-------|------------:|
-|1| *"Just Go With It"* |Jen Aniston  Adam Sandler| 2011| Comedy Romance| Please Refer to our database|
-|2| *"Malieficent"* | Angelina Jolie | 2014 | Fantasy| Please Refer to our database|
-|3| *"Mr & Mrs. Smith"* |Angelina Jolie Brad Pitt| 2005 | Action | Please Refer to our database|
-|4| *"Grown Ups"* |Adam Sandler| 2010 | Comedy| Please Refer to our database|
-|5| *"Titanic"* |Leonardo DiCaprio Kate Winslet | 1997 | Romance | Please Refer to our database|
+|1| *"Just Go With It"* | 2011 | Comedy Romance| Please Refer to our database|
+|2| *"Malieficent"* | 2014 | Fantasy| Please Refer to our database|
+|3| *"Mr & Mrs. Smith"* | 2005 | Action | Please Refer to our database|
+|4| *"Grown Ups"* | 2010 | Comedy| Please Refer to our database|
+|5| *"Titanic"* | 1997 | Romance | Please Refer to our database|
 
 
 - The Actor Table would look like this
@@ -32,3 +32,4 @@ The second table will be an actor table with name, age, and gender columns
 
 Link to our GitHub
 [GitHub](https://github.com/chrisni123/group-assignment-01)
+
