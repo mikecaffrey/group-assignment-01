@@ -17,7 +17,7 @@ All Movies
 <div class="container">
    <h1 class="mt-5"><i class="fa fa-film" aria-hidden="true"></i> Movie Directory</h1>
    <div class="row bottom-margin">
-     <a href="/movie/add" class="btn btn-primary" role="button" aria-disabeled="true">Add Movie</a>
+     <a href="/movie-directory/add" class="btn btn-primary" role="button" aria-disabeled="true">Add Movie</a>
    </div>
 {% if movies %}
 <table class="table">
@@ -25,7 +25,7 @@ All Movies
     <tr>
       <th> Movie Id</th>
       <th>Title</th>
-        <th>Director</th>
+        <th>Actor</th>
         <th>Year</th>
         <th>Genre</th>
       <th>Description</th>
@@ -37,12 +37,12 @@ All Movies
   <tr>
     <th scope="row">{{movie.id}}</th>
         <td>{{movie.title}}</td>
-        <td>{{movie.director}}</td>
+        <td>{{movie.actor}}</td>
         <td>{{movie.year}}</td>
         <td>{{movie.genre}}</td>
         <td>{{movie.description}}</td>
         <td>
-          <a href="/movie/edit/{{movie.id}}" class ="btn btn-success" role="button" aria-disabled="true"> Edit</a>
+          <a href="/movie-directory/edit/{{movie.id}}" class ="btn btn-success" role="button" aria-disabled="true"> Edit</a>
         </td>
   </tr>
 
